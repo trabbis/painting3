@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Painting3 | Interior &amp; Exterior House Painting</title>
+  <meta name="description" content="Painting3 is a small, local painting company for house interiors and exteriors. Careful prep, clean lines, tidy job sites and free written estimates.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..800&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#top" class="logo" aria-label="Painting3 home">
+        <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="4" width="20" height="9" rx="2" fill="currentColor"/><path d="M23 8.5h4v8H15v5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><rect x="12.5" y="21" width="5" height="8" rx="1.5" fill="currentColor"/></svg>
+        <span>Painting<b>3</b></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav">
+        <span class="sr">Menu</span><span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="#services">Services</a>
+        <a href="#process">How it works</a>
+        <a href="#work">Our work</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="tel:+15550123456" class="nav-phone">(555) 012-3456</a>
+        <a href="#estimate" class="btn btn-primary">Free estimate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="tape">Interior · Exterior</span></p>
+          <h1>Fresh walls. Sharp lines. <span class="hl">No mess left behind.</span></h1>
+          <p class="lead">We're a small, local painting crew. The same people who quote your job show up to paint it. We patch, sand, protect and paint, and we leave your home cleaner than we found it.</p>
+          <div class="hero-cta">
+            <a href="#estimate" class="btn btn-primary btn-lg">Get a free estimate</a>
+            <a href="tel:+15550123456" class="btn btn-ghost btn-lg">Call (555) 012-3456</a>
+          </div>
+          <ul class="trust">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.2 8 9 4.6-.8 8-4.5 8-9V6z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>Licensed &amp; insured</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>2-year workmanship warranty</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg>Written, itemised quotes</li>
+          </ul>
+        </div>
+
+        <figure class="hero-art" aria-label="Illustration of a house front, half repainted with a roller">
+          <svg viewBox="0 0 520 440" role="img" aria-hidden="true">
+            <defs>
+              <clipPath id="wallClip"><rect x="70" y="190" width="380" height="210"/></clipPath>
+            </defs>
+            <rect class="sky" x="0" y="0" width="520" height="440" rx="18"/>
+            <circle cx="430" cy="80" r="34" fill="#f6c453" opacity=".9"/>
+            <rect x="0" y="392" width="520" height="48" fill="#7fae6a"/>
+            <!-- roof -->
+            <path d="M40 200 260 70l220 130z" fill="#3b4652"/>
+            <rect x="360" y="96" width="34" height="62" fill="#5a3a22"/>
+            <!-- wall: old colour -->
+            <rect x="70" y="190" width="380" height="210" fill="#c9bfae"/>
+            <!-- wall: new colour, revealed by roller -->
+            <g clip-path="url(#wallClip)">
+              <rect class="fresh" x="70" y="190" width="235" height="210" fill="#2f6f8f"/>
+            </g>
+            <!-- siding lines -->
+            <g stroke="#000" stroke-opacity=".08" stroke-width="2">
+              <path d="M70 220h380M70 250h380M70 280h380M70 310h380M70 340h380M70 370h380"/>
+            </g>
+            <!-- trim + windows -->
+            <rect x="105" y="235" width="80" height="70" fill="#f7f5f0"/><rect x="113" y="243" width="64" height="54" fill="#a9d3ee"/><path d="M145 243v54M113 270h64" stroke="#f7f5f0" stroke-width="5"/>
+            <rect x="335" y="235" width="80" height="70" fill="#f7f5f0"/><rect x="343" y="243" width="64" height="54" fill="#a9d3ee"/><path d="M375 243v54M343 270h64" stroke="#f7f5f0" stroke-width="5"/>
+            <rect x="225" y="295" width="64" height="105" fill="#f7f5f0"/><rect x="232" y="302" width="50" height="98" fill="#b3261e"/><circle cx="272" cy="352" r="3.5" fill="#f6c453"/>
+            <!-- roller -->
+            <g class="roller">
+              <rect x="292" y="196" width="26" height="120" rx="8" fill="#2f6f8f" stroke="#1d4d64" stroke-width="2"/>
+              <path d="M318 256h22v60" fill="none" stroke="#3b4652" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="332" y="312" width="16" height="70" rx="6" fill="#d4271e"/>
+            </g>
+            <!-- ladder -->
+            <g stroke="#a14a1f" stroke-width="6" stroke-linecap="round"><path d="M455 400 425 215M490 400 460 215"/><path d="M450 370h33M445 335h33M440 300h33M435 265h33M430 232h32"/></g>
+          </svg>
+          <figcaption>
+            <span class="cl"><span class="chip" style="--c:#c9bfae"></span>Before: Dusty Linen</span>
+            <span class="arrow" aria-hidden="true">→</span>
+            <span class="cl"><span class="chip" style="--c:#2f6f8f"></span>After: Harbour Blue</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- fan-deck strip -->
+    <div class="fandeck" aria-hidden="true">
+      <span style="--c:#f2efe8"></span><span style="--c:#e4d9c3"></span><span style="--c:#c9bfae"></span><span style="--c:#9fb3a3"></span><span style="--c:#5f8a7a"></span><span style="--c:#2f6f8f"></span><span style="--c:#24435c"></span><span style="--c:#3b4652"></span><span style="--c:#b3261e"></span><span style="--c:#d98c3f"></span><span style="--c:#f6c453"></span>
+    </div>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Services</p>
+          <h2>Inside and out, one crew handles it.</h2>
+          <p class="sub">Every job includes surface prep, floor and furniture protection, two coats where needed, and a full clean-up.</p>
+        </header>
+        <div class="services">
+          <article class="service">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><rect x="9" y="13" width="6" height="7"/></svg></div>
+            <h3>Interior painting</h3>
+            <p>Walls, ceilings, trim, doors and stairwells. Low-odour, low-VOC paints so you can keep living in your home.</p>
+            <ul><li>Patch holes and cracks</li><li>Caulk trim gaps</li><li>Cut-in by hand</li></ul>
+          </article>
+          <article class="service">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12 12 3l10 9"/><path d="M4 11v10h16V11"/><path d="M4 15h16M4 18h16"/></svg></div>
+            <h3>Exterior painting</h3>
+            <p>Siding, stucco, brick, trim, soffits and fascia. Weather-rated coatings that hold up to sun, rain and freeze-thaw.</p>
+            <ul><li>Power wash &amp; scrape</li><li>Prime bare wood</li><li>Seal joints</li></ul>
+          </article>
+          <article class="service">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M12 4v16M3 12h18"/><path d="M9 8v1M15 8v1M9 15v1M15 15v1"/></svg></div>
+            <h3>Cabinet refinishing</h3>
+            <p>Give the kitchen a new look without new cabinets. Doors are degreased, sanded, primed and sprayed for a smooth, hard finish.</p>
+            <ul><li>Doors sprayed off-site</li><li>Bonding primer</li><li>New hardware optional</li></ul>
+          </article>
+          <article class="service">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18M5 20V10M10 20V10M15 20V10M20 20V10M3 10h18"/></svg></div>
+            <h3>Decks &amp; fences</h3>
+            <p>Cleaning, brightening and staining for decks, fences and pergolas. Transparent, semi-transparent or solid stains.</p>
+            <ul><li>Wash &amp; brighten</li><li>Sand rough boards</li><li>Penetrating stain</li></ul>
+          </article>
+          <article class="service">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20 15 9"/><path d="m14 4 6 6-3 3-6-6z"/><path d="M4 16h4v4"/></svg></div>
+            <h3>Drywall &amp; plaster repair</h3>
+            <p>Dents, nail pops, water stains and old anchor holes, fixed and blended so the repair disappears under the paint.</p>
+            <ul><li>Mud &amp; tape</li><li>Texture matching</li><li>Stain-blocking primer</li></ul>
+          </article>
+          <article class="service">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="18" rx="1"/><rect x="10" y="3" width="7" height="18" rx="1" transform="rotate(14 13.5 12)"/><path d="M6.5 17h0"/></svg></div>
+            <h3>Colour consultation</h3>
+            <p>Not sure what colour to pick? We bring sample boards and test patches, and help you choose shades that suit your light.</p>
+            <ul><li>Free with any job</li><li>Large test patches</li><li>Finish advice</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section section-band" id="process">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">How it works</p>
+          <h2>From first call to final walkthrough</h2>
+        </header>
+        <ol class="steps">
+          <li><span class="num">1</span><h3>Free on-site estimate</h3><p>We visit, measure, look at the surfaces and talk through what you want. You get a written, itemised quote within 48 hours.</p></li>
+          <li><span class="num">2</span><h3>Pick colours &amp; a start date</h3><p>We help you choose colours and finishes, then book a start date that suits you. No large deposit up front.</p></li>
+          <li><span class="num">3</span><h3>Protect &amp; prep</h3><p>Furniture covered, floors draped, fixtures removed. We fill, sand, caulk and prime. Most of a good paint job is here.</p></li>
+          <li><span class="num">4</span><h3>Paint</h3><p>Clean cut lines and even coats. We clean up at the end of every day so you can still use your rooms.</p></li>
+          <li><span class="num">5</span><h3>Walkthrough &amp; warranty</h3><p>We walk the job with you and touch up anything you spot. Then you get your 2-year workmanship warranty in writing.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <!-- Sample projects: replace with your own before/after photos and real job details. -->
+    <section class="section" id="work">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Recent work</p>
+          <h2>Before and after</h2>
+          <p class="sub">A few recent jobs, with the colours we used.</p>
+        </header>
+        <div class="projects">
+          <article class="project">
+            <div class="ba">
+              <div class="ba-before" style="--c:#d8cfbf"><span>Before</span></div>
+              <div class="ba-after" style="--c:#5f8a7a"><span>After</span></div>
+            </div>
+            <div class="project-body">
+              <h3>Living &amp; dining room</h3>
+              <p class="meta">Interior · 3 days</p>
+              <div class="colours"><span class="cl"><span class="chip" style="--c:#5f8a7a"></span>Sage Field, eggshell</span><span class="cl"><span class="chip" style="--c:#f2efe8"></span>Chalk White trim, semi-gloss</span></div>
+            </div>
+          </article>
+          <article class="project">
+            <div class="ba">
+              <div class="ba-before" style="--c:#b9b2a3"><span>Before</span></div>
+              <div class="ba-after" style="--c:#24435c"><span>After</span></div>
+            </div>
+            <div class="project-body">
+              <h3>Two-storey siding &amp; trim</h3>
+              <p class="meta">Exterior · 6 days</p>
+              <div class="colours"><span class="cl"><span class="chip" style="--c:#24435c"></span>Deep Harbour, satin</span><span class="cl"><span class="chip" style="--c:#f2efe8"></span>Chalk White trim</span></div>
+            </div>
+          </article>
+          <article class="project">
+            <div class="ba">
+              <div class="ba-before" style="--c:#a5774a"><span>Before</span></div>
+              <div class="ba-after" style="--c:#e4d9c3"><span>After</span></div>
+            </div>
+            <div class="project-body">
+              <h3>Oak kitchen cabinets</h3>
+              <p class="meta">Cabinets · 5 days</p>
+              <div class="colours"><span class="cl"><span class="chip" style="--c:#e4d9c3"></span>Warm Oat, sprayed satin</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY US + PRICE FACTORS ============ -->
+    <section class="section section-band">
+      <div class="wrap two-col">
+        <div>
+          <p class="eyebrow">Why homeowners pick us</p>
+          <h2>Small crew, owner on site</h2>
+          <ul class="checks">
+            <li><b>The owner is on every job.</b> You always know who to talk to.</li>
+            <li><b>Premium paint, no shortcuts.</b> We use top-line paints and tell you exactly which product goes on.</li>
+            <li><b>On time, on budget.</b> The price on your quote is the price you pay, unless you add work.</li>
+            <li><b>Tidy job site.</b> Drop cloths down, tools away and floors swept every day.</li>
+          </ul>
+        </div>
+        <div class="price-card">
+          <h3>What affects your price?</h3>
+          <dl>
+            <div><dt>Size</dt><dd>Square footage of walls, ceiling height, number of rooms or storeys.</dd></div>
+            <div><dt>Condition</dt><dd>How much patching, scraping or priming the surfaces need.</dd></div>
+            <div><dt>Detail</dt><dd>Trim, doors, railings, spindles and colour changes add time.</dd></div>
+            <div><dt>Paint</dt><dd>Product line and sheen. We'll show you the options and the difference in cost.</dd></div>
+          </dl>
+          <a href="#estimate" class="btn btn-primary">Get your exact price</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <!-- Sample reviews: replace with real customer reviews (with their permission). -->
+    <section class="section" id="reviews">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">Reviews</p>
+          <h2>What our customers say</h2>
+        </header>
+        <div class="reviews">
+          <figure class="review">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>They covered every inch of floor and furniture, and the lines along the ceiling are perfect. Finished a day early.</blockquote>
+            <figcaption>Sarah M. <span>Interior, 4 rooms</span></figcaption>
+          </figure>
+          <figure class="review">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>Our house looks brand new from the street. The prep work on the old trim was very thorough, and the price matched the quote exactly.</blockquote>
+            <figcaption>James &amp; Priya K. <span>Exterior, siding &amp; trim</span></figcaption>
+          </figure>
+          <figure class="review">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>Cabinets came out smooth as factory. Friendly crew, cleaned up every day, and they helped us choose the colour.</blockquote>
+            <figcaption>Daniel R. <span>Kitchen cabinets</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section-band" id="faq">
+      <div class="wrap faq-wrap">
+        <header class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2>Common questions</h2>
+        </header>
+        <div class="faq">
+          <details>
+            <summary>Are estimates really free?</summary>
+            <p>Yes. We come to your home, measure and give you a written quote with no obligation.</p>
+          </details>
+          <details>
+            <summary>Do I need to move my furniture?</summary>
+            <p>Please clear small items and valuables. We move and cover the large furniture ourselves.</p>
+          </details>
+          <details>
+            <summary>How long does a typical room take?</summary>
+            <p>Most bedrooms take one day including prep and two coats. Larger rooms or big repairs can take two.</p>
+          </details>
+          <details>
+            <summary>What time of year can you paint outside?</summary>
+            <p>Exterior paint needs dry weather and temperatures above about 10 °C (50 °F) day and night, so we book exteriors from late spring to early fall.</p>
+          </details>
+          <details>
+            <summary>Do you supply the paint?</summary>
+            <p>Yes, it's included in your quote. If you already have paint you want to use, we're happy to use it.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ESTIMATE FORM ============ -->
+    <section class="section estimate" id="estimate">
+      <div class="wrap estimate-grid">
+        <div class="estimate-copy">
+          <p class="eyebrow on-dark">Free estimate</p>
+          <h2>Tell us about your project</h2>
+          <p>Send a few details and we'll call you within one business day to book a visit.</p>
+          <ul class="contact-list">
+            <li><span>Phone</span><a href="tel:+15550123456">(555) 012-3456</a></li>
+            <li><span>Email</span><a href="mailto:hello@painting3.com">hello@painting3.com</a></li>
+            <li><span>Hours</span>Mon–Fri 7:30–6, Sat 9–2</li>
+            <li><span>Area</span>Your city and nearby towns</li>
+          </ul>
+        </div>
+
+        <form class="form" id="quoteForm" name="estimate" method="POST" data-netlify="true" netlify-honeypot="company" novalidate>
+          <input type="hidden" name="form-name" value="estimate">
+          <p class="hp"><label>Leave this empty <input name="company" tabindex="-1" autocomplete="off"></label></p>
+
+          <div class="field-row">
+            <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required></div>
+            <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required></div>
+          </div>
+          <div class="field-row">
+            <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+            <div class="field"><label for="f-postal">Postal / ZIP code</label><input id="f-postal" name="postal" autocomplete="postal-code"></div>
+          </div>
+
+          <fieldset class="field">
+            <legend>What needs painting?</legend>
+            <div class="pills">
+              <label><input type="checkbox" name="service" value="Interior"><span>Interior</span></label>
+              <label><input type="checkbox" name="service" value="Exterior"><span>Exterior</span></label>
+              <label><input type="checkbox" name="service" value="Cabinets"><span>Cabinets</span></label>
+              <label><input type="checkbox" name="service" value="Deck / fence"><span>Deck / fence</span></label>
+              <label><input type="checkbox" name="service" value="Drywall repair"><span>Drywall repair</span></label>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label for="f-when">When would you like it done?</label>
+            <select id="f-when" name="timing">
+              <option>As soon as possible</option>
+              <option>Within 1 month</option>
+              <option>1–3 months</option>
+              <option>Just getting prices</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-msg">Project details <span class="opt">(optional)</span></label>
+            <textarea id="f-msg" name="message" rows="4" placeholder="e.g. 3 bedrooms and a hallway, walls and ceilings, some nail holes to patch"></textarea>
+          </div>
+
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Request my free estimate</button>
+          <p class="form-status" id="formStatus" role="status" hidden></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <a href="#top" class="logo"><svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="4" width="20" height="9" rx="2" fill="currentColor"/><path d="M23 8.5h4v8H15v5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><rect x="12.5" y="21" width="5" height="8" rx="1.5" fill="currentColor"/></svg><span>Painting<b>3</b></span></a>
+        <p>Interior &amp; exterior house painting. Licensed and fully insured.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="#services">Services</a><a href="#process">How it works</a><a href="#work">Our work</a><a href="#reviews">Reviews</a><a href="#estimate">Free estimate</a>
+      </nav>
+      <p class="copy">© <span id="year">2026</span> Painting3. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- mobile call bar -->
+  <div class="callbar">
+    <a href="tel:+15550123456" class="btn btn-ghost">Call</a>
+    <a href="#estimate" class="btn btn-primary">Free estimate</a>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
