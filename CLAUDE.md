@@ -8,10 +8,9 @@ A one-page marketing site for a small house painting company. It's plain HTML, C
 
 ## Commands
 
-Vite 5 needs Node 18+, but the machine's default Node is 12. Put the nvm Node 18 first on PATH in each shell before running npm:
+Vite 5 needs Node 18+. The default Node (via nvm-windows) is 18.16.0. Node 12 is also installed, so if `node -v` shows v12, run `nvm use 18.16.0` as Administrator.
 
 ```powershell
-$env:Path = "C:\dev\nvm\v18.16.0;" + $env:Path
 npm run dev       # http://localhost:5173
 npm run build     # outputs dist/
 npm run preview   # serve the built dist/
