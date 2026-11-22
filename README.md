@@ -4,10 +4,9 @@ One-page website for a small interior & exterior house painting company.
 
 ## Run it on your computer
 
-This project needs Node 18 or newer. Your default Node is 12, so use the Node 18 that nvm already has:
+This project needs Node 18 or newer. Node 18 is your default. If `node -v` shows v12, run `nvm use 18.16.0` in PowerShell as Administrator.
 
 ```powershell
-$env:Path = "C:\dev\nvm\v18.16.0;" + $env:Path
 cd C:\dev\painting3
 npm run dev
 ```
